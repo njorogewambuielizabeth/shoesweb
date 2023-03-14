@@ -531,6 +531,7 @@ button{
 .wambo{
     display: flex;
     gap: 30px;
+    margin-left: 20%;
 }
 #fab{
     width: 30%;
