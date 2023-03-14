@@ -455,6 +455,7 @@ button{
 }
 .homey{
     display: flex;
+    margin-left: 14%;
 }
 #bla{
     width: 90px;
@@ -478,8 +479,12 @@ button{
 }
 .discounts{
     position: relative;
-    left: 610px;
-    margin-top: -45em;
+    left: 400px;
+    margin-top: -30em;
+}
+.det{
+    position: relative;
+    left: 200px;
 }
 .sixty{
     display: flex;
@@ -499,6 +504,7 @@ button{
     background-color: whitesmoke;
     color: red;
     border-radius: 0px;
+    margin-left: 16%;
 }
 #liz2{
     border-radius: 0px;
@@ -517,8 +523,8 @@ button{
 .heavy{
     float: left;
     background-color: red;
-    width: 300px;
-    height: 450px;
+    width: 200px;
+    height: 400px;
     border-radius: 1550px/0px 1250px 4550px 1500px;
 
 }
@@ -527,7 +533,9 @@ button{
     gap: 30px;
 }
 #fab{
-    width: 50%;
+    width: 30%;
+    margin-left: -14%;
+    
 }
 
 /* @media (){
