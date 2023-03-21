@@ -2,6 +2,10 @@
     background-color: whitesmoke;
 
 }
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
     
 
 .head{
@@ -84,7 +88,7 @@ button{
     height: 100%;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-top: 90px;
     /* margin-top: -10em; */
 }
@@ -120,7 +124,7 @@ button{
     border: solid white;
     background-color: white;
     display: flex;
-    padding-right: 20px;
+    padding-right: 10px;
     padding-top: 0px;
     border-radius: 36px;
     padding-bottom: 0px;
@@ -285,7 +289,7 @@ button{
     border-color: white;
 }
 #but5{
-    background-color: rgb(246, 71, 71);
+    background-image: linear-gradient(to right,red,rgb(255, 174, 0));
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -302,10 +306,11 @@ button{
 }
 .footer{
     background-color: rgb(246, 71, 71);
+      
     color: white;
     display: flex;
     gap: 40px;
-    height: 200%;
+    height: 100%;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -508,6 +513,9 @@ button{
     display: flex;
     gap: 20px;
 }
+#foi{
+    background-image: linear-gradient(to right,red,rgb(255, 174, 0));
+}
 #liz{
     background-color: whitesmoke;
     color: red;
@@ -516,6 +524,7 @@ button{
 }
 #liz2{
     border-radius: 0px;
+    background-image: linear-gradient(to right,red,rgb(255, 174, 0));
 }
 #sin{
     background-color: whitesmoke;
@@ -546,14 +555,134 @@ button{
     margin-left: -14%;
     
 }
-@media(min-width:300px){
+*{
+    list-style: none;
+    text-decoration: white;
+}
+#d1{
+    text-align: center;
+}
+#d2{
+    margin-left: 20%;
+      
+}
+#abou{
+    margin-left: 50%;
+}
+#jair{
+    width: 300px;
+    border-radius: 20px;
+    height: 300px;
+    margin-left: 25%;
+  
+} 
+.short{
+    margin-left: 2%;
+    margin-top: -1em;
+    font-size: smaller;
+    font-style: normal;
+
+}
+.short3{
+    font-size: smaller;
+    margin-left: 50%;
+    margin-top: -25em;
+}
+
+.all-shoes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.all-1 img{
+    float: right;
+    border-radius: 1em;
+    width: 350px;
+    height: 350px;
+    font-size: smaller;
+}
+
+
+
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+/* @media(max-width:700px){
+
+    .cards{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+    
+}
+
+.short{
+    margin-left: 80%;
+    margin-top: -25em;
+    font-size: smaller;
+    font-style: normal;
     
 
 }
-/* //@ ipad Air */
-@media(max-width:50px){
 
+#jair{
+    width: 200px;
+    border-radius: 20px;
+    height: 200px;
+  
+} */
+/* } */
+
+
+#bot1{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: linear-gradient(to right,red,rgb(255, 174, 0));
 }
+.short2{
+    font-size: smaller;
+    font-style: normal;
+    margin-left: 20%;
+}
+#d3{
+    margin-left: 50%;
+    margin-top: -20em;
+}
+#airs2{
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    
+}
+.stone{
+    margin-top: 5%;
+    margin-left: 20%;
+}
+#stoney{
+    width: 300px;
+    height: 300px;
+}
+/* .short3{
+    margin-left: 50%;
+    margin-top: -25em;
+    font-size: smaller;
+} */
+
+/* @media(min-width:600px){
+  
+    
+
+} */
+/* //@ ipad Air */
+/* @media(max-width:50px){
+
+} */
 /* @media(max-width:60px){
 
 } */
