@@ -613,13 +613,13 @@ button{
     grid-template-columns: repeat(2,1fr);
 }
 
-/* @media(max-width:700px){
+ @media(max-width:700px){
 
     .cards{
     display: grid;
     grid-template-columns: repeat(1,1fr);
 
-    
+   }  
 }
 
 .short{
@@ -668,11 +668,11 @@ button{
     width: 300px;
     height: 300px;
 }
-/* .short3{
+.short3{
     margin-left: 50%;
     margin-top: -25em;
     font-size: smaller;
-} */
+} 
 
 /* @media(min-width:600px){
   
