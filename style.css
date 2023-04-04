@@ -51,6 +51,25 @@ body{
     list-style: none;
     gap: 10px;
 }
+.one li :hover{
+    transition: 0.3s ease;
+
+}
+input[type=checkbox]{
+
+     display: none;
+    
+}
+ .hamburger {
+
+         display: block;
+        
+         font-size: 24px;
+        
+         user-select: none;
+        cursor: pointer;
+        
+        }
 .two{
     display: flex;
     gap: 10px;
@@ -570,9 +589,9 @@ button{
     margin-left: 50%;
 }
 #jair{
-    width: 300px;
+    /* width: 400px; */
     border-radius: 20px;
-    height: 300px;
+    /* height: 400px; */
     margin-left: 25%;
   
 } 
@@ -601,6 +620,84 @@ button{
     height: 350px;
     font-size: smaller;
 }
+.cont{
+    background-color: whitesmoke;
+}
+.ice{
+    margin-left: 20%;
+}
+#ic1{
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-color:whitesmoke;
+    border-bottom: whitesmoke;
+    border-right: whitesmoke;
+    
+    
+    border-radius: 25px;
+}
+#ic2{
+    background-color: white;
+    color: black;
+    border-color:whitesmoke;
+    border-bottom: whitesmoke;
+    border-right: whitesmoke;
+    
+    
+    border-radius: 25px;
+}
+#ic3{
+    background-color: white;
+    color: black;
+    border-color:whitesmoke;
+    border-bottom: whitesmoke;
+    border-right: whitesmoke;
+    
+    
+    border-radius: 25px;
+}
+#ic4{
+    background-color: white;
+    color: black;
+    border-color:whitesmoke;
+    border-bottom: whitesmoke;
+    border-right: whitesmoke;
+    
+    
+    border-radius: 25px;
+}
+#ic5{
+    background-color: white;
+    color: black;
+    border-color:whitesmoke;
+    border-bottom: whitesmoke;
+    border-right: whitesmoke;
+    padding-bottom: 90px;
+    
+    
+    border-radius: 25px;
+   
+      
+}
+#quiz{
+    margin-left: 20%;
+}
+
+ #code{
+    margin-left: 40%;
+    margin-bottom: 10px;
+ }   
+
+#ic6{
+    background-image: linear-gradient(to right,red,rgb(255, 174, 0));
+    border-radius: 22px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.lastb{
+    margin-left: 30%;
+}
 
 
 
@@ -613,18 +710,39 @@ button{
     grid-template-columns: repeat(2,1fr);
 }
 
- @media(max-width:700px){
+ @media screen and (max-width:700px){
 
-    .cards{
+    /* .cards{
     display: grid;
     grid-template-columns: repeat(1,1fr);
 
-   }  
+   } 
+   .cards .img{
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+   }  */
+   .footer{
+    background-color: rgb(246, 71, 71);
+      
+    color: white;
+    display: flex;
+    gap: 40px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+   }
+}
+@media screen and (max-width:700px){
+
+
 }
 
 .short{
-    margin-left: 80%;
-    margin-top: -25em;
+    margin-left: 4%;
+    margin-top: -2em;
     font-size: smaller;
     font-style: normal;
     
@@ -632,9 +750,9 @@ button{
 }
 
 #jair{
-    width: 200px;
+    width: 300px;
     border-radius: 20px;
-    height: 200px;
+    height: 300px;
   
 } */
 /* } */

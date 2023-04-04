@@ -2,6 +2,11 @@
 @media all and (min-width:1024px) and (max-width:1280px){
 
 }
+@media screen and (max-width:700px) {
+  .footer.div.img{
+
+  }  
+}
 /* tablets landscape */
 @media all and (min-width:768px) and (max-width:1024px){
 
@@ -51,5 +56,150 @@
 }
 /* iPad Landscape */
 @media screen and (min-device-width: 481px) and (orientation:landscape) {
+}
+
+/* For screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  /* Set the font size of h1 to 24px */
+  #abou h1 {
+    font-size: 24px;
+  }
+  
+  /* Set the width of the image to 100% */
+  #d2 img, #d3 img, #stoney img {
+    width: 100%;
+  }
+  
+  /* Set the font size of h2 to 18px */
+  .short h2, .short2 h2, .short3 h2 {
+    font-size: 18px;
+  }
+  
+  /* Set the font size of p to 14px */
+  .short p, .short2 p, .short3 p {
+    font-size: 14px;
+  }
+  
+  /* Set the margin and padding of button */
+  #bot1 {
+    margin: 10px 0;
+    padding: 5px;
+  }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer div {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .footer h4 {
+    margin-top: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  #fin {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* For screens between 768px and 992px */
+@media (min-width: 481px) and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .footer div {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .footer h4 {
+    margin-top: 20px;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  #fin {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+@media(min-width:481px)and (max-width:768px){
+  body-cont{
+    background-color: whitesmoke;
+  }
+  #quiz{
+    margin-left: 20%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .ice{
+    margin-left: 20%;
+  }
+  .lastb{
+    margin-left: 50%;
+  }
+
+}
+@media (max-width: 768px){
+  .one{
+    display: none;
+    position: absolute;
+    right: 0;
+
+ left: 0;
+
+ text-align: center;
+
+ padding: 16px 0;
+  }
+  input[type=checkbox]:checked ~ .one{
+
+     display: block;
+    
+    }
+    .hamburger {
+
+       display: block;
+      
+      }
 }
 
